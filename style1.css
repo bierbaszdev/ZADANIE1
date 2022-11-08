@@ -1,0 +1,106 @@
+body
+{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(a8.jpg);
+    padding-top: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#contener
+{
+    width:80%;
+    margin: 0 auto;
+}
+#baner{
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    word-spacing: normal;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Verdana', cursive;
+}
+td{
+    text-align:center;
+    font-weight: bold;
+    width:20%;
+    height:70%;
+    padding-bottom: 5px;
+}
+table{
+    margin: 0 auto;
+}
+.zdjecia td{
+    text-align: center;
+}
+#prawy{
+    background-color: orange;
+    width:50%;
+    float:right;
+    height:60%;
+    margin: auto;
+    border: dashed 6px rgb(219, 117, 1);
+    font-family: 'Verdana', cursive;
+    font-size: 20px;
+}
+#glewy{
+    text-align: left;
+}
+#lewy{
+    width:30%;
+    float:left;
+    height:40%;
+    text-align: center;
+    font-family: 'Verdana', cursive;
+    color: rgb(238, 196, 168);
+}
+#wynik{
+    text-align: center;
+    font-family: 'Verdana', cursive;
+    color: white;
+}
+input[type="button"]
+{
+    background-color: rgb(163, 79, 1);
+    height : 45px;
+    font-weight:bold ;
+    color:rgb(255, 255, 255) ;
+    border: dashed 5px rgb(143, 45, 0) ;
+    font-family: 'Verdana', cursive;
+    cursor: pointer;
+}
+input[type="number"]
+{
+    width:40px;
+    margin: auto;
+    text-align: center;
+    float:right;
+}
+#aa
+{
+    text-align:center;
+    margin:auto;
+}
+.tyt{
+    font-size:20px;
+    color:rgb(255, 205, 139);
+    letter-spacing: -1px;
+}
+.obrazek{
+    height: 80%;
+    width:80%;
+    border: dashed 5px rgb(114, 51, 0);
+}
+#stopka{
+    height: 10%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    clear:both;
+    font-family: 'Verdana', cursive;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
